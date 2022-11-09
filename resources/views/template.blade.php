@@ -19,6 +19,14 @@
 
             </div>
             <div class="md:flex items-center justify-end flex-1 lg:w-0">
+                <a href="/home"
+                    class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-500 hover:bg-teal-700">
+                    Home
+                </a>
+                <a href="/indexgetdata"
+                    class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-500 hover:bg-teal-700">
+                    Product
+                </a>
                 <a href="/"
                     class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-500 hover:bg-teal-700">
                     Exit

@@ -18,6 +18,35 @@ class IndexController extends Controller
         return View::make('home')->with('index', $request->index+1);
     }
 
+    public function getData(){
+        $array = array(
+            array(
+                'name' => 'Ultramilk 500ml',
+                'price' => 'Rp 7000',
+                'description' => 'Rasa Stoberi'
+            ),
+
+            array(
+                'name' => 'Indomie Goreng 100gr',
+                'price' => 'Rp 3000',
+                'description' => 'tanpa telor'
+            ),
+
+            array(
+                'name' => 'Telor',
+                'price' => 'Rp 2000',
+                'description' => 'masih mentah'
+            ),
+
+            array(
+                'name' => 'Mouse',
+                'price' => 'Rp 110000',
+                'description' => 'kualitas bagus'
+            )
+       );
+    //    dd($array);
+       return View::make('product')->with('array', $array);
+    }
     /**
      * Show the form for creating a new resource.
      *

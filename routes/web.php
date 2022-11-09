@@ -24,3 +24,7 @@ Route::post('/indexcontroller', [IndexController::class, 'index']);
 Route::get('/logo', function () {
     return view('logo');
 })->name('logo');
+Route::get('/indexgetdata', [IndexController::class, 'getData']);
+Route::get('/product', function(){
+    return view('product');
+})->name('product');
